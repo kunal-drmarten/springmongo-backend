@@ -1,0 +1,6 @@
+com/example/SpringMongoProject/SpringMongoProjectApplication.class
+com/example/SpringMongoProject/CorsConfig.class
+com/example/SpringMongoProject/Repo/StudentRepo.class
+com/example/SpringMongoProject/Service/StudentServices.class
+com/example/SpringMongoProject/Entity/Student.class
+com/example/SpringMongoProject/Controller/StudentController.class
