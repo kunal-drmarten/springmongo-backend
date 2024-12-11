@@ -20,8 +20,7 @@ jobs:
             -Dsonar.projectKey=springmongo-backend \
             -Dsonar.sources=. \
             -Dsonar.host.url=http://localhost:9000 \
-            -Dsonar.login="${{ secrets.SONAR_TOKEN }}"
-            -Dsonar.exclusions=target/classes/**
+            -Dsonar.login="${{ secrets.SONAR_TOKEN }}" \
             -Dsonar.java.binaries=**/target/classes
 
 
