@@ -21,6 +21,8 @@ jobs:
             -Dsonar.sources=. \
             -Dsonar.host.url=http://localhost:9000 \
             -Dsonar.login="${{ secrets.SONAR_TOKEN }}"
+            -Dsonar.java.binaries=target/classes
+
 
   docker-build-push:
     needs: sonar-scan
